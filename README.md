@@ -12,3 +12,6 @@ just a practice of kotlin concepts
 
 ## for practice
 * https://play.kotlinlang.org/koans/overview
+
+## functional library
+* https://arrow-kt.io/
