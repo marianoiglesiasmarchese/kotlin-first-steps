@@ -58,6 +58,10 @@ fun lambdasFunctionalProgramming() {
     val myMapResult = myMap(tenNumbers, function3)
     println("myMapResult: $myMapResult")
 
+    // is something isn't null do something else do something else
+    val id : String? = null
+    id?.also { it } ?: "something"
+
 }
 
 fun myMap(numbers: ArrayList<Int>, fn: (Int) -> Int): ArrayList<Int> {
